@@ -1,0 +1,15 @@
+{{>header}}
+
+<h1>{{pageTitle}}</h1>
+
+<div>
+    {{#blogList}}
+    <div>
+        <h2>{{title}}</h2>
+        <h4>{{author}}</h4>
+        <p>{{content}}</p>
+    </div><br/>
+    {{/blogList}}
+</div>
+
+{{>footer}}
